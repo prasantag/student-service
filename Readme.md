@@ -22,10 +22,10 @@ The service should be UP on http://localhost:8080.
 If you wish to run it as docker container, please run the below commands in order:
 1. To create the docker image locally, run in the root directory [docker build -t student:latest .]
 or, you can pull it from dockerHub with command [docker pull prasantag/student-spring-boot:latest]
-2. Run [docker run -p8080:8080 student:latest] or [docker run -p8080:8080 student-spring-boot:latest]
+2. Run [docker run -p8080:8080 student:latest] or [docker run -p8080:8080 prasantag/student-spring-boot:latest]
 3. The service should be UP on http://localhost:8080.
 
-APIs developed and how to test through Postman or any other tools:
+APIs developed and how to test through Postman or any other similar tools:
 1. To add student POST URL localhost:8080/student, REQUEST BODY [{
    "firstName": "John",
    "lastName": "Leon",
